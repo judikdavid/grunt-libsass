@@ -61,9 +61,9 @@ In this example, the default options are used to compile a sass file
 ```js
 grunt.initConfig({
   libsass: {
-      myTarget{
-          src: 'src/my.scss'
-          dest: 'dist/my.css',
+      myTarget: {
+          src: 'src/my.scss',
+          dest: 'dist/my.css'
       }
   }
 });
